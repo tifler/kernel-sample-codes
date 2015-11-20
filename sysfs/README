@@ -1,0 +1,8 @@
+Usage
+=====
+
+1. Setup count value
+# echo 10 > /sys/device/platform/sysfs_sample/data
+
+2. Read data
+# cat /sys/device/platform/sysfs_sample/data
